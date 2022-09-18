@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .common-style {
+      background-color: blue;
+      height: 50px;
+    }
+
+    .class-pixel {
+      width: 100px;
+    }
+
+    .class-point {
+      width: 100pt;
+    }
+
+    .class-picas {
+      width: 100pc;
+    }
+  </style>
+</head>
+
+<body style="font-size: 32px;">
+  <h1>Absolute Units</h1>
+  <h1>100px</h1>
+  <div class="common-style class-pixel"></div>
+  <h1>100pt</h1>
+  <div class="common-style class-point"></div>
+  <h1>100pc</h1>
+  <div class="common-style class-picas"></div>
+
+  <h1>Relative Units</h1>
+  <h1>%</h1>
+  <div class="common-style" style="width: 50%"></div>
+  <div style="width: 200px; border: 1px solid">
+    <div class="common-style" style="width: 50%"></div>
+  </div>
+
+  <h1>vw</h1>
+  <div class="common-style" style="width: 50%">50%</div>
+  <div class="common-style" style="width: 50vw">50vw</div>
+
+  <h1>vh</h1>
+  <div style="width: 50px; margin-right: 2px;background-color: blue;height: 50%;display: inline-block;">50%</div>
+  <div style="width: 50px;background-color: blue;height: 50vh;display: inline-block;">50vh</div>
+
+</body>
+
+</html>

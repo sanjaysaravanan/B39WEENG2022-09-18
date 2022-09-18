@@ -1,0 +1,50 @@
+
+Topics:
+
+  CSS-Grid:
+    take controll over the children and make them behave like a grid
+    props: 
+      display: grid;
+      grid-template-columns
+      grid-template-rows
+      gap: row & column (column-gap, row-gap)
+
+  Overflow: (overflow-x, overflow-y)
+    visible: overflow will be visible and would hide the parent ( default value)
+    hidden: hides the overflow content
+    auto/overlay: adds horizontal / vertical whenever the contents is overflowing
+    scroll: irrespective of overflow adds a scroll bar permanently
+      
+  measurements / Units
+    Absolute Unit: 
+    px - pixel, pt - point, pc - picas
+    1px = 1/96th of an inch
+
+    1pt = point 1/72th of an inch
+
+    1pc = picas 12 * 1pt or 1/6th of inch
+
+    Relative Units:
+      %, vh, vw, 
+      1% -> 1 percent of the parent
+      vw -> viewport width
+        1vw -> 1 % viewport width
+      vh -> viewport height
+        1vh -> 1 % viewport height
+      
+      emphemeral units (font-size) default font-size ----> 16px
+      em, rem ---> root em
+        1rem = fontsize of the root element ( Initial Containing Block )
+        1em = fontsize of the parent element
+
+        2rem = 2 * fontsize of the root element ( Initial Containing Block )
+        2em = 2 * fontsize of the parent element
+
+  fonts --> Google font APIs
+
+  icons --> fontawesome
+
+  Netlify
+
+  Next Session:
+    Drop-Box
