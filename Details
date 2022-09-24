@@ -44,7 +44,13 @@ Topics:
     Visit google fonts and search for You required fonts
     Select and copy  link tag rel
 
-  Netlify
+  Netlify:
+    Goto Netlify
+    Add new site ---> Import existing Project,
+      1. Select Github
+      2. Github repo selection
+      3. Click deploy without any modifications to settings
+    
 
   Next Session:
     icons --> fontawesome
